@@ -1,0 +1,40 @@
+== (a)  Kriterium |MC - R2| <= 0,045 ==
+  k=2 Label 1 sigma=0,05        : MC 0.734  R2 0.714  |d| 0.020  OK
+  k=2 Label 1 Kontrolle sigma=0 : MC 0.502  R2 0.462  |d| 0.040  OK
+  k=4 Label 1 sigma=0,05        : MC 0.579  R2 0.618  |d| 0.039  OK
+  k=4 Label 1 Kontrolle sigma=0 : MC 0.454  R2 0.454  |d| 0.000  OK
+  k=4 Label 3 sigma=0,05        : MC 0.604  R2 0.623  |d| 0.019  OK
+  k=4 Label 3 Kontrolle sigma=0 : MC 0.459  R2 0.438  |d| 0.021  OK
+== (b)  Kriterium relativ <= 2 %; sigma* 0,14 oder 0,15 (k=2); k=4 zensiert ==
+  k=2 sigma 0.02: MC 0.0208  R2 0.0213  rel  2.37 %  BEFUND
+  k=2 sigma 0.05: MC 0.0981  R2 0.0988  rel  0.74 %  OK
+  k=2 sigma 0.10: MC 0.2908  R2 0.2885  rel  0.79 %  OK
+  k=2 sigma 0.13: MC 0.4094  R2 0.4173  rel  1.90 %  OK
+  k=2 sigma 0.14: MC 0.4615  R2 0.4606  rel  0.18 %  OK
+  k=2 sigma 0.15: MC 0.5129  R2 0.5036  rel  1.85 %  OK
+  k=2 sigma 0.20: MC 0.7093  R2 0.7052  rel  0.58 %  OK
+  k=2 sigma 0.30: MC 0.9704  R2 0.9674  rel  0.31 %  OK
+  k=2 delta_best: MC 0.5000  R2 0.5000
+  k=4 sigma 0.05: MC 0.0507  R2 0.0500  rel  1.42 %  OK
+  k=4 sigma 0.10: MC 0.1307  R2 0.1305  rel  0.16 %  OK
+  k=4 sigma 0.15: MC 0.2033  R2 0.2016  rel  0.85 %  OK
+  k=4 sigma 0.20: MC 0.2433  R2 0.2438  rel  0.23 %  OK
+  k=4 sigma 0.30: MC 0.2516  R2 0.2516  rel  0.00 %  OK
+  k=4 sigma 0.40: MC 0.2516  R2 0.2516  rel  0.01 %  OK
+  k=4 delta_best: MC 0.4150  R2 0.4150
+  sigma* k=2: MC 0.14  (Uebereinstimmung, wenn 0,14 oder 0,15) -> OK
+  k=4 zensiert: MC True  R2 zensiert -> OK
+== (c)  Kriterium f* gleich, Dmax(f) |d| <= 1e-4 ==
+  k=2 f 0.010: MC 0.07561  R2 0.0756  |d| 8.5e-06  OK
+  k=2 f 0.050: MC 0.29015  R2 0.2901  |d| 4.6e-05  OK
+  k=2 f 0.070: MC 0.38013  R2 0.3801  |d| 3.4e-05  OK
+  k=2 f 0.100: MC 0.50318  R2 0.5032  |d| 1.6e-05  OK
+  f* k=2: MC 0.07  R2 0.07 -> OK
+  k=4 f 0.010: MC 0.08888  R2 0.0889  |d| 2.1e-05  OK
+  k=4 f 0.035: MC 0.25792  R2 0.2579  |d| 1.8e-05  OK
+  k=4 f 0.050: MC 0.34663  R2 0.3466  |d| 2.9e-05  OK
+  k=4 f 0.100: MC 0.60731  R2 0.6073  |d| 1.1e-05  OK
+  f* k=4: MC 0.035  R2 0.035 -> OK
+
+BEFUNDE ausserhalb der vorab festgelegten Grenzen: 1
+   ('b', '2', 0.02, 0.020794345945903656, 0.0213)

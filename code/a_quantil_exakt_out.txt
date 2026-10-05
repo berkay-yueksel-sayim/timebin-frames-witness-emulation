@@ -1,0 +1,32 @@
+z (zweiseitig 99,865 %) = 3.205133
+
+== k=2, blinde Labels [1]
+   Label 1 Frame T  : max |H-1-h| bei sigma=0,3 ueber 200 Ziehungen = 1.11e-16
+   Label 1 Frame ST : max |H-1-h| bei sigma=0,3 ueber 200 Ziehungen = 9.83e-01
+   Label 1 Frame TS : max |H-1-h| bei sigma=0,3 ueber 200 Ziehungen = 1.11e-16
+   Label 1 Frame TT : max |H-1-h| bei sigma=0,3 ueber 200 Ziehungen = 6.41e-16
+   Label 1 Frame ST: alle Bins zufaellig gegen nur Delta auf Bin +m: max |dp| = 5.20e-18
+   sigma 0.02: exakt 0.02129 (monoton bis q: [True])  |  MC 0.02079  rel -2.33 %
+   sigma 0.05: exakt 0.09874 (monoton bis q: [True])  |  MC 0.09807  rel -0.68 %
+   sigma 0.10: exakt 0.28848 (monoton bis q: [True])  |  MC 0.29077  rel +0.79 %
+   sigma 0.14: exakt 0.46051 (monoton bis q: [True])  |  MC 0.46145  rel +0.20 %
+   sigma 0.15: exakt 0.50348 (monoton bis q: [True])  |  MC 0.51294  rel +1.88 %
+
+== k=4, blinde Labels [1, 3]
+   Label 1 Frame T  : max |H-1-h| bei sigma=0,3 ueber 200 Ziehungen = 6.41e-16
+   Label 1 Frame ST : max |H-1-h| bei sigma=0,3 ueber 200 Ziehungen = 2.51e-01
+   Label 1 Frame TS : max |H-1-h| bei sigma=0,3 ueber 200 Ziehungen = 4.44e-16
+   Label 1 Frame TT : max |H-1-h| bei sigma=0,3 ueber 200 Ziehungen = 6.41e-16
+   Label 1 Frame ST: alle Bins zufaellig gegen nur Delta auf Bin +m: max |dp| = 8.33e-17
+   Label 3 Frame T  : max |H-1-h| bei sigma=0,3 ueber 200 Ziehungen = 1.11e-16
+   Label 3 Frame ST : max |H-1-h| bei sigma=0,3 ueber 200 Ziehungen = 2.52e-01
+   Label 3 Frame TS : max |H-1-h| bei sigma=0,3 ueber 200 Ziehungen = 4.44e-16
+   Label 3 Frame TT : max |H-1-h| bei sigma=0,3 ueber 200 Ziehungen = 1.11e-16
+   Label 3 Frame ST: alle Bins zufaellig gegen nur Delta auf Bin +m: max |dp| = 2.78e-17
+   sigma 0.02: exakt 0.01165 (monoton bis q: [True, True])  |  MC 0.01158  rel -0.64 %
+   sigma 0.05: exakt 0.05004 (monoton bis q: [True, True])  |  MC 0.05071  rel +1.35 %
+   sigma 0.10: exakt 0.13049 (monoton bis q: [True, True])  |  MC 0.13070  rel +0.16 %
+   sigma 0.14: exakt 0.18917 (monoton bis q: [True, True])  |  MC 0.19175  rel +1.36 %
+   sigma 0.15: exakt 0.20154 (monoton bis q: [True, True])  |  MC 0.20332  rel +0.88 %
+
+MC-Quantil k=2 sigma=0,02, 300 x 1e5 Ziehungen: Mittel 0.02128, Streuung 0.00027 (rel 1.27 %); Anteil <= 0,02079 (mein Lauf): 0.030

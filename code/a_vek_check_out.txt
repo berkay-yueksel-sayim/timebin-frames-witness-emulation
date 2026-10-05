@@ -1,0 +1,6 @@
+Vektorisierung: max |p_batch - p_skalar| = 3.33e-16  (k=1..4, alle Labels, sieben Woerter, 25 Zeilen)
+entropie_batch gegen H: max Abweichung 2.22e-16
+schaetzer_batch gegen schaetzer: max Abweichung 4.44e-16  (200 Zufallszaehlungen)
+2D-Multinomial: Zeilensummen alle 10000: True  Form (4000, 8)
+Negativkontrolle (vertauschte Stufenreihenfolge): Abweichung 5.09e-02, sichtbar: True
+KONTROLLE: BESTANDEN

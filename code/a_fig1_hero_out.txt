@@ -1,0 +1,4 @@
+(a) k=2, Label 0, Frame S: p_label [0.25 0.5  0.25] -> h = 1.5000 bit; p_bin [0.    0.125 0.25  0.125 0.    0.125 0.25  0.125] -> H_bin = 2.5000 bit; H_bin - h - 1 = 0.0e+00 | Bins wie +-(b+1)-Regel: True
+(b/c) k=2: bester Abstand 0.5000; sigma* 0.14; Delta_max(sigma) max 0.9996; letztes zertifizierbares sigma 0.14; f* 0.07; erstes f mit Rand >= Signal 0.075 (gestrichelt bis dort); spaeter wieder zertifizierbar: False
+(b/c) k=4: bester Abstand 0.4150; sigma* None; Delta_max(sigma) max 0.2516; letztes zertifizierbares sigma 0.4; f* 0.035; erstes f mit Rand >= Signal 0.04 (gestrichelt bis dort); spaeter wieder zertifizierbar: False
+geschrieben: a_fig1_hero.pdf, a_fig1_hero.png

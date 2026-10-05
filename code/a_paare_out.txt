@@ -1,0 +1,10 @@
+k=2: |Rahmengruppe| bis auf Phase = 384
+   blinde Einzel-Labels: Gruppe [1] | sieben Woerter [1]
+   blinde Paare (i, jbar): Gruppe [(1, 1)]
+                            sieben Woerter [(0, 0), (0, 2), (1, 1), (2, 0), (2, 2)]
+   kleinster Abstand zur ganzen Zahl unter NICHT-blinden Paaren (Gruppe): 0.2018  (Toleranz 1e-09)
+k=4: |Rahmengruppe| bis auf Phase = 2304
+   blinde Einzel-Labels: Gruppe [1, 3] | sieben Woerter [1, 3]
+   blinde Paare (i, jbar): Gruppe [(1, 1), (1, 3), (3, 1), (3, 3)]
+                            sieben Woerter [(1, 1), (1, 3), (3, 1), (3, 3)]
+   kleinster Abstand zur ganzen Zahl unter NICHT-blinden Paaren (Gruppe): 0.1699  (Toleranz 1e-09)

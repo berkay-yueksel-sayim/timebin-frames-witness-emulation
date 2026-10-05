@@ -1,0 +1,18 @@
+k=2  (L=8 Bins)
+  id  F=0 P=0 Phase-vor-Fourier=False h_a: -0.0000 -0.0000 -0.0000   max Abstand 0.0000
+  S   F=1 P=0 Phase-vor-Fourier=False h_a: 1.5000 1.0000 1.5000   max Abstand 0.5000
+  T   F=0 P=1 Phase-vor-Fourier=False h_a: -0.0000 -0.0000 -0.0000   max Abstand 0.0000
+  SS  F=2 P=0 Phase-vor-Fourier=False h_a: -0.0000 -0.0000 -0.0000   max Abstand 0.0000
+  ST  F=1 P=1 Phase-vor-Fourier=True  h_a: 1.5000 1.0000 1.5000   max Abstand 0.5000
+  TS  F=1 P=1 Phase-vor-Fourier=False h_a: 1.5000 1.0000 1.5000   max Abstand 0.5000
+  TT  F=0 P=2 Phase-vor-Fourier=False h_a: -0.0000 -0.0000 -0.0000   max Abstand 0.0000
+  nicht-blind: [0, 2]; erstes Wort, das sie zeigt: {0: 'S', 2: 'S'}
+k=4  (L=12 Bins)
+  id  F=0 P=0 Phase-vor-Fourier=False h_a: -0.0000 -0.0000 -0.0000 -0.0000 -0.0000   max Abstand 0.0000
+  S   F=1 P=0 Phase-vor-Fourier=False h_a: 2.1258 2.0000 1.5850 2.0000 2.1258   max Abstand 0.4150
+  T   F=0 P=1 Phase-vor-Fourier=False h_a: -0.0000 -0.0000 -0.0000 -0.0000 -0.0000   max Abstand 0.0000
+  SS  F=2 P=0 Phase-vor-Fourier=False h_a: 0.0000 0.0000 0.0000 -0.0000 -0.0000   max Abstand 0.0000
+  ST  F=1 P=1 Phase-vor-Fourier=True  h_a: 2.1258 2.0000 1.5850 2.0000 2.1258   max Abstand 0.4150
+  TS  F=1 P=1 Phase-vor-Fourier=False h_a: 2.1258 2.0000 1.5850 2.0000 2.1258   max Abstand 0.4150
+  TT  F=0 P=2 Phase-vor-Fourier=False h_a: -0.0000 -0.0000 0.0000 -0.0000 -0.0000   max Abstand 0.0000
+  nicht-blind: [0, 2, 4]; erstes Wort, das sie zeigt: {0: 'S', 2: 'S', 4: 'S'}

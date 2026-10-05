@@ -1,0 +1,1238 @@
+{
+ "prereg": "A_PREREG_ENTWURF_v4.md",
+ "prereg_sha256": "4a11d668456e974f99f71ab73cf2baf16ae3a535ccdeba406bd878c374f0ffc9",
+ "umgebung": {
+  "python": "3.12.10",
+  "numpy": "2.4.3",
+  "system": "Windows-11-10.0.26300-SP0"
+ },
+ "festlegungen": {
+  "NPH": 10000,
+  "WDH": 1000,
+  "SIGMA_A": 0.05,
+  "ZIEH": 100000,
+  "SIGMA_BEREICH": [
+   0.02,
+   0.3
+  ],
+  "F_BEREICH": [
+   0.01,
+   0.3
+  ],
+  "sigma_gitter": [
+   0.01,
+   0.4,
+   40
+  ],
+  "f_gitter": [
+   0.005,
+   0.4,
+   80
+  ]
+ },
+ "A1_max_abweichung": {
+  "5": 1.199040866595169e-14,
+  "7": 2.3092638912203256e-14,
+  "8": 2.398081733190338e-14,
+  "9": 2.6645352591003757e-14,
+  "11": 2.886579864025407e-14,
+  "12": 2.9753977059954195e-14
+ },
+ "A1_lemma_w_matrix": {
+  "5": 1.8514724696513507e-15,
+  "7": 3.366100273137891e-15,
+  "8": 1.3712300268997212e-15,
+  "9": 2.6852712547870858e-15,
+  "11": 3.0369216844827586e-15,
+  "12": 7.370457698125763e-15
+ },
+ "A1_bestaetigt": true,
+ "A2": {
+  "2": {
+   "blind": [
+    1
+   ],
+   "nicht_blind": [
+    0,
+    2
+   ],
+   "bester_abstand_rauschfrei": 0.5,
+   "a_rate_je_blindes_label": {
+    "1": {
+     "sigma_0.05": 0.734,
+     "kontrolle_sigma_0": 0.502
+    }
+   },
+   "a_bestaetigt": true,
+   "a_kontrolle_sigma_0_unter_50": false,
+   "b_sigma_stern": 0.14,
+   "b_zensiert_kein_bruch_im_gitter": false,
+   "b_spaeter_wieder_zertifizierbar": false,
+   "b_kurve": {
+    "0.010": {
+     "delta_max": 0.006436623217290088,
+     "zertifizierbar": true
+    },
+    "0.020": {
+     "delta_max": 0.020794345945903656,
+     "zertifizierbar": true
+    },
+    "0.030": {
+     "delta_max": 0.042483943852212235,
+     "zertifizierbar": true
+    },
+    "0.040": {
+     "delta_max": 0.0687938238189043,
+     "zertifizierbar": true
+    },
+    "0.050": {
+     "delta_max": 0.09807003069196348,
+     "zertifizierbar": true
+    },
+    "0.060": {
+     "delta_max": 0.13250267313978503,
+     "zertifizierbar": true
+    },
+    "0.070": {
+     "delta_max": 0.16618068187905735,
+     "zertifizierbar": true
+    },
+    "0.080": {
+     "delta_max": 0.20617879404505013,
+     "zertifizierbar": true
+    },
+    "0.090": {
+     "delta_max": 0.2412744653518062,
+     "zertifizierbar": true
+    },
+    "0.100": {
+     "delta_max": 0.29076881467243487,
+     "zertifizierbar": true
+    },
+    "0.110": {
+     "delta_max": 0.3263073721547911,
+     "zertifizierbar": true
+    },
+    "0.120": {
+     "delta_max": 0.3668344036134321,
+     "zertifizierbar": true
+    },
+    "0.130": {
+     "delta_max": 0.4093858766631831,
+     "zertifizierbar": true
+    },
+    "0.140": {
+     "delta_max": 0.46145064231961297,
+     "zertifizierbar": true
+    },
+    "0.150": {
+     "delta_max": 0.5129369671022602,
+     "zertifizierbar": false
+    },
+    "0.160": {
+     "delta_max": 0.5409989679146467,
+     "zertifizierbar": false
+    },
+    "0.170": {
+     "delta_max": 0.6001268188308878,
+     "zertifizierbar": false
+    },
+    "0.180": {
+     "delta_max": 0.6275857995374372,
+     "zertifizierbar": false
+    },
+    "0.190": {
+     "delta_max": 0.6751379945512622,
+     "zertifizierbar": false
+    },
+    "0.200": {
+     "delta_max": 0.709305923669441,
+     "zertifizierbar": false
+    },
+    "0.210": {
+     "delta_max": 0.7513309529548783,
+     "zertifizierbar": false
+    },
+    "0.220": {
+     "delta_max": 0.7852316848046959,
+     "zertifizierbar": false
+    },
+    "0.230": {
+     "delta_max": 0.8076558836298667,
+     "zertifizierbar": false
+    },
+    "0.240": {
+     "delta_max": 0.8423265116255797,
+     "zertifizierbar": false
+    },
+    "0.250": {
+     "delta_max": 0.8596591525145311,
+     "zertifizierbar": false
+    },
+    "0.260": {
+     "delta_max": 0.8855384970023189,
+     "zertifizierbar": false
+    },
+    "0.270": {
+     "delta_max": 0.9119278688324101,
+     "zertifizierbar": false
+    },
+    "0.280": {
+     "delta_max": 0.9392099300322106,
+     "zertifizierbar": false
+    },
+    "0.290": {
+     "delta_max": 0.9497046486989271,
+     "zertifizierbar": false
+    },
+    "0.300": {
+     "delta_max": 0.9703949288420772,
+     "zertifizierbar": false
+    },
+    "0.310": {
+     "delta_max": 0.9793992100733266,
+     "zertifizierbar": false
+    },
+    "0.320": {
+     "delta_max": 0.9892764890067265,
+     "zertifizierbar": false
+    },
+    "0.330": {
+     "delta_max": 0.9928970952599304,
+     "zertifizierbar": false
+    },
+    "0.340": {
+     "delta_max": 0.9958189646098207,
+     "zertifizierbar": false
+    },
+    "0.350": {
+     "delta_max": 0.9973986063667863,
+     "zertifizierbar": false
+    },
+    "0.360": {
+     "delta_max": 0.9976099981123131,
+     "zertifizierbar": false
+    },
+    "0.370": {
+     "delta_max": 0.9988291925523232,
+     "zertifizierbar": false
+    },
+    "0.380": {
+     "delta_max": 0.999105698652495,
+     "zertifizierbar": false
+    },
+    "0.390": {
+     "delta_max": 0.9994768402976734,
+     "zertifizierbar": false
+    },
+    "0.400": {
+     "delta_max": 0.9996047264517314,
+     "zertifizierbar": false
+    }
+   },
+   "b_bestaetigt": true,
+   "c_f_stern": 0.07,
+   "c_zensiert_kein_bruch_im_gitter": false,
+   "c_spaeter_wieder_zertifizierbar": false,
+   "c_kurve": {
+    "0.005": {
+     "delta_max": 0.041564410461717854,
+     "bester_abstand_verrauscht": 0.4873940670535326,
+     "zertifizierbar": true
+    },
+    "0.010": {
+     "delta_max": 0.07560845661033985,
+     "bester_abstand_verrauscht": 0.47729265383310304,
+     "zertifizierbar": true
+    },
+    "0.015": {
+     "delta_max": 0.10680123336913924,
+     "bester_abstand_verrauscht": 0.4681393810725347,
+     "zertifizierbar": true
+    },
+    "0.020": {
+     "delta_max": 0.1361351476101946,
+     "bester_abstand_verrauscht": 0.45960343205204435,
+     "zertifizierbar": true
+    },
+    "0.025": {
+     "delta_max": 0.16408148503745387,
+     "bester_abstand_verrauscht": 0.4515276969687636,
+     "zertifizierbar": true
+    },
+    "0.030": {
+     "delta_max": 0.1909177941405624,
+     "bester_abstand_verrauscht": 0.4438196449503118,
+     "zertifizierbar": true
+    },
+    "0.035": {
+     "delta_max": 0.21682744235816284,
+     "bester_abstand_verrauscht": 0.4364181386651822,
+     "zertifizierbar": true
+    },
+    "0.040": {
+     "delta_max": 0.24194073285321147,
+     "bester_abstand_verrauscht": 0.4292797287290897,
+     "zertifizierbar": true
+    },
+    "0.045": {
+     "delta_max": 0.26635507243366363,
+     "bester_abstand_verrauscht": 0.4223719310628322,
+     "zertifizierbar": true
+    },
+    "0.050": {
+     "delta_max": 0.29014604946852063,
+     "bester_abstand_verrauscht": 0.415669534251665,
+     "zertifizierbar": true
+    },
+    "0.055": {
+     "delta_max": 0.3133740321624996,
+     "bester_abstand_verrauscht": 0.40915240011843634,
+     "zertifizierbar": true
+    },
+    "0.060": {
+     "delta_max": 0.33608834646813346,
+     "bester_abstand_verrauscht": 0.402804071084212,
+     "zertifizierbar": true
+    },
+    "0.065": {
+     "delta_max": 0.35833005138259955,
+     "bester_abstand_verrauscht": 0.39661084506728894,
+     "zertifizierbar": true
+    },
+    "0.070": {
+     "delta_max": 0.38013385519959164,
+     "bester_abstand_verrauscht": 0.3905611367304944,
+     "zertifizierbar": true
+    },
+    "0.075": {
+     "delta_max": 0.40152948148375467,
+     "bester_abstand_verrauscht": 0.4015294814837542,
+     "zertifizierbar": false
+    },
+    "0.080": {
+     "delta_max": 0.4225426691977463,
+     "bester_abstand_verrauscht": 0.42254266919774564,
+     "zertifizierbar": false
+    },
+    "0.085": {
+     "delta_max": 0.4431959218505108,
+     "bester_abstand_verrauscht": 0.44319592185051015,
+     "zertifizierbar": false
+    },
+    "0.090": {
+     "delta_max": 0.4635090797893602,
+     "bester_abstand_verrauscht": 0.4635090797893595,
+     "zertifizierbar": false
+    },
+    "0.095": {
+     "delta_max": 0.4834997649416486,
+     "bester_abstand_verrauscht": 0.4834997649416479,
+     "zertifizierbar": false
+    },
+    "0.100": {
+     "delta_max": 0.5031837316805845,
+     "bester_abstand_verrauscht": 0.49681626831941617,
+     "zertifizierbar": false
+    },
+    "0.105": {
+     "delta_max": 0.522575147352065,
+     "bester_abstand_verrauscht": 0.47742485264793566,
+     "zertifizierbar": false
+    },
+    "0.110": {
+     "delta_max": 0.5416868192535007,
+     "bester_abstand_verrauscht": 0.45831318074649996,
+     "zertifizierbar": false
+    },
+    "0.115": {
+     "delta_max": 0.5605303802632684,
+     "bester_abstand_verrauscht": 0.43946961973673226,
+     "zertifizierbar": false
+    },
+    "0.120": {
+     "delta_max": 0.5791164421290078,
+     "bester_abstand_verrauscht": 0.4208835578709931,
+     "zertifizierbar": false
+    },
+    "0.125": {
+     "delta_max": 0.5974547231656384,
+     "bester_abstand_verrauscht": 0.40254527683436225,
+     "zertifizierbar": false
+    },
+    "0.130": {
+     "delta_max": 0.615554155490297,
+     "bester_abstand_verrauscht": 0.38444584450970365,
+     "zertifizierbar": false
+    },
+    "0.135": {
+     "delta_max": 0.6334229757358554,
+     "bester_abstand_verrauscht": 0.3665770242641453,
+     "zertifizierbar": false
+    },
+    "0.140": {
+     "delta_max": 0.6510688023071676,
+     "bester_abstand_verrauscht": 0.3489311976928331,
+     "zertifizierbar": false
+    },
+    "0.145": {
+     "delta_max": 0.6684987015864865,
+     "bester_abstand_verrauscht": 0.33150129841351417,
+     "zertifizierbar": false
+    },
+    "0.150": {
+     "delta_max": 0.6857192449958278,
+     "bester_abstand_verrauscht": 0.3142807550041731,
+     "zertifizierbar": false
+    },
+    "0.155": {
+     "delta_max": 0.7027365584419447,
+     "bester_abstand_verrauscht": 0.3033457811854867,
+     "zertifizierbar": false
+    },
+    "0.160": {
+     "delta_max": 0.7195563653739039,
+     "bester_abstand_verrauscht": 0.29891040489886356,
+     "zertifizierbar": false
+    },
+    "0.165": {
+     "delta_max": 0.7361840244523081,
+     "bester_abstand_verrauscht": 0.2945362935279978,
+     "zertifizierbar": false
+    },
+    "0.170": {
+     "delta_max": 0.7526245626473858,
+     "bester_abstand_verrauscht": 0.2902217518807264,
+     "zertifizierbar": false
+    },
+    "0.175": {
+     "delta_max": 0.7688827044387552,
+     "bester_abstand_verrauscht": 0.2859651853853471,
+     "zertifizierbar": false
+    },
+    "0.180": {
+     "delta_max": 0.7849628976742464,
+     "bester_abstand_verrauscht": 0.2817650914679488,
+     "zertifizierbar": false
+    },
+    "0.185": {
+     "delta_max": 0.8008693365521375,
+     "bester_abstand_verrauscht": 0.27762005188854877,
+     "zertifizierbar": false
+    },
+    "0.190": {
+     "delta_max": 0.816605982115828,
+     "bester_abstand_verrauscht": 0.27352872590635835,
+     "zertifizierbar": false
+    },
+    "0.195": {
+     "delta_max": 0.8321765805884569,
+     "bester_abstand_verrauscht": 0.2694898441650082,
+     "zertifizierbar": false
+    },
+    "0.200": {
+     "delta_max": 0.8475846798245745,
+     "bester_abstand_verrauscht": 0.26550220320535933,
+     "zertifizierbar": false
+    },
+    "0.205": {
+     "delta_max": 0.8628336441143538,
+     "bester_abstand_verrauscht": 0.2615646605274087,
+     "zertifizierbar": false
+    },
+    "0.210": {
+     "delta_max": 0.8779266675413548,
+     "bester_abstand_verrauscht": 0.25767613013427715,
+     "zertifizierbar": false
+    },
+    "0.215": {
+     "delta_max": 0.8928667860661081,
+     "bester_abstand_verrauscht": 0.253835578500861,
+     "zertifizierbar": false
+    },
+    "0.220": {
+     "delta_max": 0.9076568884837377,
+     "bester_abstand_verrauscht": 0.2500420209177361,
+     "zertifizierbar": false
+    },
+    "0.225": {
+     "delta_max": 0.9222997263836088,
+     "bester_abstand_verrauscht": 0.2462945181676517,
+     "zertifizierbar": false
+    },
+    "0.230": {
+     "delta_max": 0.9367979232219181,
+     "bester_abstand_verrauscht": 0.24259217349764262,
+     "zertifizierbar": false
+    },
+    "0.235": {
+     "delta_max": 0.9511539826036592,
+     "bester_abstand_verrauscht": 0.23893412985460705,
+     "zertifizierbar": false
+    },
+    "0.240": {
+     "delta_max": 0.9653702958580885,
+     "bester_abstand_verrauscht": 0.23531956735631798,
+     "zertifizierbar": false
+    },
+    "0.245": {
+     "delta_max": 0.9794491489812815,
+     "bester_abstand_verrauscht": 0.2317477009733202,
+     "zertifizierbar": false
+    },
+    "0.250": {
+     "delta_max": 0.9933927290103632,
+     "bester_abstand_verrauscht": 0.22821777840020196,
+     "zertifizierbar": false
+    },
+    "0.255": {
+     "delta_max": 1.0072031298862363,
+     "bester_abstand_verrauscht": 0.2247290780972815,
+     "zertifizierbar": false
+    },
+    "0.260": {
+     "delta_max": 1.0208823578549457,
+     "bester_abstand_verrauscht": 0.2212809074860056,
+     "zertifizierbar": false
+    },
+    "0.265": {
+     "delta_max": 1.0344323364520231,
+     "bester_abstand_verrauscht": 0.21787260128327057,
+     "zertifizierbar": false
+    },
+    "0.270": {
+     "delta_max": 1.0478549111091395,
+     "bester_abstand_verrauscht": 0.21450351996155526,
+     "zertifizierbar": false
+    },
+    "0.275": {
+     "delta_max": 1.061151853418014,
+     "bester_abstand_verrauscht": 0.21117304832321837,
+     "zertifizierbar": false
+    },
+    "0.280": {
+     "delta_max": 1.074324865082717,
+     "bester_abstand_verrauscht": 0.2078805941785724,
+     "zertifizierbar": false
+    },
+    "0.285": {
+     "delta_max": 1.087375581588171,
+     "bester_abstand_verrauscht": 0.204625587118469,
+     "zertifizierbar": false
+    },
+    "0.290": {
+     "delta_max": 1.1003055756097042,
+     "bester_abstand_verrauscht": 0.20140747737310827,
+     "zertifizierbar": false
+    },
+    "0.295": {
+     "delta_max": 1.1131163601859766,
+     "bester_abstand_verrauscht": 0.1982257347496268,
+     "zertifizierbar": false
+    },
+    "0.300": {
+     "delta_max": 1.1258093916752745,
+     "bester_abstand_verrauscht": 0.19507984764180009,
+     "zertifizierbar": false
+    },
+    "0.305": {
+     "delta_max": 1.1383860725132264,
+     "bester_abstand_verrauscht": 0.1919693221058334,
+     "zertifizierbar": false
+    },
+    "0.310": {
+     "delta_max": 1.1508477537881638,
+     "bester_abstand_verrauscht": 0.18889368099684356,
+     "zertifizierbar": false
+    },
+    "0.315": {
+     "delta_max": 1.1631957376488156,
+     "bester_abstand_verrauscht": 0.18585246316111403,
+     "zertifizierbar": false
+    },
+    "0.320": {
+     "delta_max": 1.1754312795576005,
+     "bester_abstand_verrauscht": 0.18284522267971726,
+     "zertifizierbar": false
+    },
+    "0.325": {
+     "delta_max": 1.1875555904015596,
+     "bester_abstand_verrauscht": 0.18755559040155934,
+     "zertifizierbar": false
+    },
+    "0.330": {
+     "delta_max": 1.1995698384718325,
+     "bester_abstand_verrauscht": 0.19956983847183185,
+     "zertifizierbar": false
+    },
+    "0.335": {
+     "delta_max": 1.2114751513216067,
+     "bester_abstand_verrauscht": 0.211475151321606,
+     "zertifizierbar": false
+    },
+    "0.340": {
+     "delta_max": 1.2232726175115782,
+     "bester_abstand_verrauscht": 0.22327261751157756,
+     "zertifizierbar": false
+    },
+    "0.345": {
+     "delta_max": 1.2349632882511494,
+     "bester_abstand_verrauscht": 0.23496328825114876,
+     "zertifizierbar": false
+    },
+    "0.350": {
+     "delta_max": 1.246548178942884,
+     "bester_abstand_verrauscht": 0.2465481789428834,
+     "zertifizierbar": false
+    },
+    "0.355": {
+     "delta_max": 1.258028270637103,
+     "bester_abstand_verrauscht": 0.25802827063710243,
+     "zertifizierbar": false
+    },
+    "0.360": {
+     "delta_max": 1.2694045114028885,
+     "bester_abstand_verrauscht": 0.2694045114028878,
+     "zertifizierbar": false
+    },
+    "0.365": {
+     "delta_max": 1.2806778176212814,
+     "bester_abstand_verrauscht": 0.28067781762128075,
+     "zertifizierbar": false
+    },
+    "0.370": {
+     "delta_max": 1.2918490752059515,
+     "bester_abstand_verrauscht": 0.2918490752059508,
+     "zertifizierbar": false
+    },
+    "0.375": {
+     "delta_max": 1.3029191407561973,
+     "bester_abstand_verrauscht": 0.30291914075619664,
+     "zertifizierbar": false
+    },
+    "0.380": {
+     "delta_max": 1.3138888426467552,
+     "bester_abstand_verrauscht": 0.31388884264675454,
+     "zertifizierbar": false
+    },
+    "0.385": {
+     "delta_max": 1.3247589820585162,
+     "bester_abstand_verrauscht": 0.3247589820585155,
+     "zertifizierbar": false
+    },
+    "0.390": {
+     "delta_max": 1.335530333953961,
+     "bester_abstand_verrauscht": 0.33553033395396037,
+     "zertifizierbar": false
+    },
+    "0.395": {
+     "delta_max": 1.3462036480007968,
+     "bester_abstand_verrauscht": 0.34620364800079617,
+     "zertifizierbar": false
+    },
+    "0.400": {
+     "delta_max": 1.3567796494470403,
+     "bester_abstand_verrauscht": 0.35677964944703966,
+     "zertifizierbar": false
+    }
+   },
+   "c_bestaetigt": true
+  },
+  "4": {
+   "blind": [
+    1,
+    3
+   ],
+   "nicht_blind": [
+    0,
+    2,
+    4
+   ],
+   "bester_abstand_rauschfrei": 0.4150374992788439,
+   "a_rate_je_blindes_label": {
+    "1": {
+     "sigma_0.05": 0.579,
+     "kontrolle_sigma_0": 0.454
+    },
+    "3": {
+     "sigma_0.05": 0.604,
+     "kontrolle_sigma_0": 0.459
+    }
+   },
+   "a_bestaetigt": true,
+   "a_kontrolle_sigma_0_unter_50": true,
+   "b_sigma_stern": null,
+   "b_zensiert_kein_bruch_im_gitter": true,
+   "b_spaeter_wieder_zertifizierbar": false,
+   "b_kurve": {
+    "0.010": {
+     "delta_max": 0.0036189484239952385,
+     "zertifizierbar": true
+    },
+    "0.020": {
+     "delta_max": 0.011576602115931277,
+     "zertifizierbar": true
+    },
+    "0.030": {
+     "delta_max": 0.02308030425149947,
+     "zertifizierbar": true
+    },
+    "0.040": {
+     "delta_max": 0.035733986769902186,
+     "zertifizierbar": true
+    },
+    "0.050": {
+     "delta_max": 0.05071185567245027,
+     "zertifizierbar": true
+    },
+    "0.060": {
+     "delta_max": 0.06556267081787823,
+     "zertifizierbar": true
+    },
+    "0.070": {
+     "delta_max": 0.08415563358770659,
+     "zertifizierbar": true
+    },
+    "0.080": {
+     "delta_max": 0.09825346927405389,
+     "zertifizierbar": true
+    },
+    "0.090": {
+     "delta_max": 0.11253533350215272,
+     "zertifizierbar": true
+    },
+    "0.100": {
+     "delta_max": 0.13070246568196753,
+     "zertifizierbar": true
+    },
+    "0.110": {
+     "delta_max": 0.1469125740602367,
+     "zertifizierbar": true
+    },
+    "0.120": {
+     "delta_max": 0.1596814791097709,
+     "zertifizierbar": true
+    },
+    "0.130": {
+     "delta_max": 0.1780902290800114,
+     "zertifizierbar": true
+    },
+    "0.140": {
+     "delta_max": 0.19174550394845616,
+     "zertifizierbar": true
+    },
+    "0.150": {
+     "delta_max": 0.20331883323265698,
+     "zertifizierbar": true
+    },
+    "0.160": {
+     "delta_max": 0.2129938374708107,
+     "zertifizierbar": true
+    },
+    "0.170": {
+     "delta_max": 0.22352755327786258,
+     "zertifizierbar": true
+    },
+    "0.180": {
+     "delta_max": 0.23229931245145122,
+     "zertifizierbar": true
+    },
+    "0.190": {
+     "delta_max": 0.24006235906253015,
+     "zertifizierbar": true
+    },
+    "0.200": {
+     "delta_max": 0.24325105161420812,
+     "zertifizierbar": true
+    },
+    "0.210": {
+     "delta_max": 0.24741366927719446,
+     "zertifizierbar": true
+    },
+    "0.220": {
+     "delta_max": 0.2498751512948583,
+     "zertifizierbar": true
+    },
+    "0.230": {
+     "delta_max": 0.25080095997749585,
+     "zertifizierbar": true
+    },
+    "0.240": {
+     "delta_max": 0.2511950245823008,
+     "zertifizierbar": true
+    },
+    "0.250": {
+     "delta_max": 0.2514083472031235,
+     "zertifizierbar": true
+    },
+    "0.260": {
+     "delta_max": 0.2514997694441579,
+     "zertifizierbar": true
+    },
+    "0.270": {
+     "delta_max": 0.251554220289854,
+     "zertifizierbar": true
+    },
+    "0.280": {
+     "delta_max": 0.25158321111390314,
+     "zertifizierbar": true
+    },
+    "0.290": {
+     "delta_max": 0.2515969430710885,
+     "zertifizierbar": true
+    },
+    "0.300": {
+     "delta_max": 0.2516093991327892,
+     "zertifizierbar": true
+    },
+    "0.310": {
+     "delta_max": 0.25161230311290167,
+     "zertifizierbar": true
+    },
+    "0.320": {
+     "delta_max": 0.251618116815137,
+     "zertifizierbar": true
+    },
+    "0.330": {
+     "delta_max": 0.2516190402986391,
+     "zertifizierbar": true
+    },
+    "0.340": {
+     "delta_max": 0.25162197712135653,
+     "zertifizierbar": true
+    },
+    "0.350": {
+     "delta_max": 0.2516225514344036,
+     "zertifizierbar": true
+    },
+    "0.360": {
+     "delta_max": 0.25162383939107114,
+     "zertifizierbar": true
+    },
+    "0.370": {
+     "delta_max": 0.2516256078785095,
+     "zertifizierbar": true
+    },
+    "0.380": {
+     "delta_max": 0.25162562524425625,
+     "zertifizierbar": true
+    },
+    "0.390": {
+     "delta_max": 0.25162587010287535,
+     "zertifizierbar": true
+    },
+    "0.400": {
+     "delta_max": 0.2516262100489193,
+     "zertifizierbar": true
+    }
+   },
+   "b_bestaetigt": false,
+   "c_f_stern": 0.035,
+   "c_zensiert_kein_bruch_im_gitter": false,
+   "c_spaeter_wieder_zertifizierbar": false,
+   "c_kurve": {
+    "0.005": {
+     "delta_max": 0.04861876638972126,
+     "bester_abstand_verrauscht": 0.3898256333859087,
+     "zertifizierbar": true
+    },
+    "0.010": {
+     "delta_max": 0.08887904778553654,
+     "bester_abstand_verrauscht": 0.36962280694505,
+     "zertifizierbar": true
+    },
+    "0.015": {
+     "delta_max": 0.12596870724856576,
+     "bester_abstand_verrauscht": 0.35131626142391337,
+     "zertifizierbar": true
+    },
+    "0.020": {
+     "delta_max": 0.16099039865083162,
+     "bester_abstand_verrauscht": 0.3342443633829326,
+     "zertifizierbar": true
+    },
+    "0.025": {
+     "delta_max": 0.19446775209695685,
+     "bester_abstand_verrauscht": 0.31809289321637113,
+     "zertifizierbar": true
+    },
+    "0.030": {
+     "delta_max": 0.2267091338688549,
+     "bester_abstand_verrauscht": 0.3026767891794675,
+     "zertifizierbar": true
+    },
+    "0.035": {
+     "delta_max": 0.25791826438085685,
+     "bester_abstand_verrauscht": 0.2878737766092083,
+     "zertifizierbar": true
+    },
+    "0.040": {
+     "delta_max": 0.2882399034814449,
+     "bester_abstand_verrauscht": 0.28823990348144424,
+     "zertifizierbar": false
+    },
+    "0.045": {
+     "delta_max": 0.31778225924975323,
+     "bester_abstand_verrauscht": 0.3177822592497528,
+     "zertifizierbar": false
+    },
+    "0.050": {
+     "delta_max": 0.3466292967868261,
+     "bester_abstand_verrauscht": 0.34662929678682564,
+     "zertifizierbar": false
+    },
+    "0.055": {
+     "delta_max": 0.37484806962747985,
+     "bester_abstand_verrauscht": 0.37484806962747963,
+     "zertifizierbar": false
+    },
+    "0.060": {
+     "delta_max": 0.4024933618603248,
+     "bester_abstand_verrauscht": 0.4024933618603246,
+     "zertifizierbar": false
+    },
+    "0.065": {
+     "delta_max": 0.42961077178628515,
+     "bester_abstand_verrauscht": 0.4296107717862847,
+     "zertifizierbar": false
+    },
+    "0.070": {
+     "delta_max": 0.4562388410826199,
+     "bester_abstand_verrauscht": 0.45623884108261925,
+     "zertifizierbar": false
+    },
+    "0.075": {
+     "delta_max": 0.48241057254747477,
+     "bester_abstand_verrauscht": 0.4824105725474743,
+     "zertifizierbar": false
+    },
+    "0.080": {
+     "delta_max": 0.5081545413472464,
+     "bester_abstand_verrauscht": 0.49184545865275453,
+     "zertifizierbar": false
+    },
+    "0.085": {
+     "delta_max": 0.5334957273985255,
+     "bester_abstand_verrauscht": 0.46650427260147564,
+     "zertifizierbar": false
+    },
+    "0.090": {
+     "delta_max": 0.5584561512430499,
+     "bester_abstand_verrauscht": 0.44154384875695074,
+     "zertifizierbar": false
+    },
+    "0.095": {
+     "delta_max": 0.5830553681998749,
+     "bester_abstand_verrauscht": 0.41694463180012575,
+     "zertifizierbar": false
+    },
+    "0.100": {
+     "delta_max": 0.6073108582109146,
+     "bester_abstand_verrauscht": 0.39268914178908654,
+     "zertifizierbar": false
+    },
+    "0.105": {
+     "delta_max": 0.6312383375319512,
+     "bester_abstand_verrauscht": 0.3687616624680494,
+     "zertifizierbar": false
+    },
+    "0.110": {
+     "delta_max": 0.6548520109257339,
+     "bester_abstand_verrauscht": 0.3451479890742668,
+     "zertifizierbar": false
+    },
+    "0.115": {
+     "delta_max": 0.6781647779112112,
+     "bester_abstand_verrauscht": 0.3218352220887897,
+     "zertifizierbar": false
+    },
+    "0.120": {
+     "delta_max": 0.701188403078018,
+     "bester_abstand_verrauscht": 0.29881159692198267,
+     "zertifizierbar": false
+    },
+    "0.125": {
+     "delta_max": 0.723933657967194,
+     "bester_abstand_verrauscht": 0.27606634203280667,
+     "zertifizierbar": false
+    },
+    "0.130": {
+     "delta_max": 0.7464104402150089,
+     "bester_abstand_verrauscht": 0.2731795387564464,
+     "zertifizierbar": false
+    },
+    "0.135": {
+     "delta_max": 0.7686278743395258,
+     "bester_abstand_verrauscht": 0.2774773825739132,
+     "zertifizierbar": false
+    },
+    "0.140": {
+     "delta_max": 0.7905943975744987,
+     "bester_abstand_verrauscht": 0.2817200709820473,
+     "zertifizierbar": false
+    },
+    "0.145": {
+     "delta_max": 0.8123178334244268,
+     "bester_abstand_verrauscht": 0.28590920620304683,
+     "zertifizierbar": false
+    },
+    "0.150": {
+     "delta_max": 0.8338054550605172,
+     "bester_abstand_verrauscht": 0.2900462803823838,
+     "zertifizierbar": false
+    },
+    "0.155": {
+     "delta_max": 0.8550640402527301,
+     "bester_abstand_verrauscht": 0.2941326865810199,
+     "zertifizierbar": false
+    },
+    "0.160": {
+     "delta_max": 0.8760999192045542,
+     "bester_abstand_verrauscht": 0.2981697283481841,
+     "zertifizierbar": false
+    },
+    "0.165": {
+     "delta_max": 0.8969190164005763,
+     "bester_abstand_verrauscht": 0.30215862809673233,
+     "zertifizierbar": false
+    },
+    "0.170": {
+     "delta_max": 0.917526887374835,
+     "bester_abstand_verrauscht": 0.30610053446268726,
+     "zertifizierbar": false
+    },
+    "0.175": {
+     "delta_max": 0.9379287511475505,
+     "bester_abstand_verrauscht": 0.3099965287984787,
+     "zertifizierbar": false
+    },
+    "0.180": {
+     "delta_max": 0.9581295189495049,
+     "bester_abstand_verrauscht": 0.3138476309237457,
+     "zertifizierbar": false
+    },
+    "0.185": {
+     "delta_max": 0.9781338197500629,
+     "bester_abstand_verrauscht": 0.31765480423689363,
+     "zertifizierbar": false
+    },
+    "0.190": {
+     "delta_max": 0.9979460230210235,
+     "bester_abstand_verrauscht": 0.3214189602738582,
+     "zertifizierbar": false
+    },
+    "0.195": {
+     "delta_max": 1.0175702591002478,
+     "bester_abstand_verrauscht": 0.32514096278685756,
+     "zertifizierbar": false
+    },
+    "0.200": {
+     "delta_max": 1.037010437462915,
+     "bester_abstand_verrauscht": 0.32882163140471254,
+     "zertifizierbar": false
+    },
+    "0.205": {
+     "delta_max": 1.056270263162079,
+     "bester_abstand_verrauscht": 0.33246174492706393,
+     "zertifizierbar": false
+    },
+    "0.210": {
+     "delta_max": 1.0753532516618465,
+     "bester_abstand_verrauscht": 0.3360620442971727,
+     "zertifizierbar": false
+    },
+    "0.215": {
+     "delta_max": 1.0942627422546038,
+     "bester_abstand_verrauscht": 0.3396232352915636,
+     "zertifizierbar": false
+    },
+    "0.220": {
+     "delta_max": 1.1130019102269444,
+     "bester_abstand_verrauscht": 0.3431459909594703,
+     "zertifizierbar": false
+    },
+    "0.225": {
+     "delta_max": 1.131573777916527,
+     "bester_abstand_verrauscht": 0.34663095384051834,
+     "zertifizierbar": false
+    },
+    "0.230": {
+     "delta_max": 1.149981224783075,
+     "bester_abstand_verrauscht": 0.3500787379852923,
+     "zertifizierbar": false
+    },
+    "0.235": {
+     "delta_max": 1.1682269966006757,
+     "bester_abstand_verrauscht": 0.3534899308002273,
+     "zertifizierbar": false
+    },
+    "0.240": {
+     "delta_max": 1.1863137138648352,
+     "bester_abstand_verrauscht": 0.35686509473551586,
+     "zertifizierbar": false
+    },
+    "0.245": {
+     "delta_max": 1.2042438794960508,
+     "bester_abstand_verrauscht": 0.36020476883237684,
+     "zertifizierbar": false
+    },
+    "0.250": {
+     "delta_max": 1.2220198859116513,
+     "bester_abstand_verrauscht": 0.3635094701440602,
+     "zertifizierbar": false
+    },
+    "0.255": {
+     "delta_max": 1.2396440215290463,
+     "bester_abstand_verrauscht": 0.3667796950432045,
+     "zertifizierbar": false
+    },
+    "0.260": {
+     "delta_max": 1.2571184767560617,
+     "bester_abstand_verrauscht": 0.3700159204266802,
+     "zertifizierbar": false
+    },
+    "0.265": {
+     "delta_max": 1.2744453495176546,
+     "bester_abstand_verrauscht": 0.3732186048278021,
+     "zertifizierbar": false
+    },
+    "0.270": {
+     "delta_max": 1.291626650362671,
+     "bester_abstand_verrauscht": 0.3763881894446284,
+     "zertifizierbar": false
+    },
+    "0.275": {
+     "delta_max": 1.308664307189482,
+     "bester_abstand_verrauscht": 0.3795250990921226,
+     "zertifizierbar": false
+    },
+    "0.280": {
+     "delta_max": 1.3255601696250865,
+     "bester_abstand_verrauscht": 0.3826297430851042,
+     "zertifizierbar": false
+    },
+    "0.285": {
+     "delta_max": 1.3423160130885592,
+     "bester_abstand_verrauscht": 0.38570251605816486,
+     "zertifizierbar": false
+    },
+    "0.290": {
+     "delta_max": 1.3589335425664575,
+     "bester_abstand_verrauscht": 0.3887437987280693,
+     "zertifizierbar": false
+    },
+    "0.295": {
+     "delta_max": 1.3754143961249594,
+     "bester_abstand_verrauscht": 0.39175395860361784,
+     "zertifizierbar": false
+    },
+    "0.300": {
+     "delta_max": 1.3917601481809736,
+     "bester_abstand_verrauscht": 0.39473335064740134,
+     "zertifizierbar": false
+    },
+    "0.305": {
+     "delta_max": 1.4079723125522323,
+     "bester_abstand_verrauscht": 0.40797231255223165,
+     "zertifizierbar": false
+    },
+    "0.310": {
+     "delta_max": 1.4240523453043996,
+     "bester_abstand_verrauscht": 0.42405234530439895,
+     "zertifizierbar": false
+    },
+    "0.315": {
+     "delta_max": 1.4400016474115127,
+     "bester_abstand_verrauscht": 0.44000164741151204,
+     "zertifizierbar": false
+    },
+    "0.320": {
+     "delta_max": 1.4558215672444648,
+     "bester_abstand_verrauscht": 0.4558215672444641,
+     "zertifizierbar": false
+    },
+    "0.325": {
+     "delta_max": 1.4715134029009003,
+     "bester_abstand_verrauscht": 0.4715134029008996,
+     "zertifizierbar": false
+    },
+    "0.330": {
+     "delta_max": 1.487078404388641,
+     "bester_abstand_verrauscht": 0.48707840438864025,
+     "zertifizierbar": false
+    },
+    "0.335": {
+     "delta_max": 1.5025177756736408,
+     "bester_abstand_verrauscht": 0.49748222432636036,
+     "zertifizierbar": false
+    },
+    "0.340": {
+     "delta_max": 1.5178326766025056,
+     "bester_abstand_verrauscht": 0.482167323397495,
+     "zertifizierbar": false
+    },
+    "0.345": {
+     "delta_max": 1.5330242247087102,
+     "bester_abstand_verrauscht": 0.4669757752912904,
+     "zertifizierbar": false
+    },
+    "0.350": {
+     "delta_max": 1.5480934969108462,
+     "bester_abstand_verrauscht": 0.4519065030891549,
+     "zertifizierbar": false
+    },
+    "0.355": {
+     "delta_max": 1.563041531110524,
+     "bester_abstand_verrauscht": 0.4369584688894772,
+     "zertifizierbar": false
+    },
+    "0.360": {
+     "delta_max": 1.5778693276969016,
+     "bester_abstand_verrauscht": 0.428200652612603,
+     "zertifizierbar": false
+    },
+    "0.365": {
+     "delta_max": 1.5925778509642257,
+     "bester_abstand_verrauscht": 0.43080762622917623,
+     "zertifizierbar": false
+    },
+    "0.370": {
+     "delta_max": 1.6071680304482403,
+     "bester_abstand_verrauscht": 0.43338776846687344,
+     "zertifizierbar": false
+    },
+    "0.375": {
+     "delta_max": 1.6216407621868585,
+     "bester_abstand_verrauscht": 0.4359413023594496,
+     "zertifizierbar": false
+    },
+    "0.380": {
+     "delta_max": 1.6359969099100249,
+     "bester_abstand_verrauscht": 0.43846844480194,
+     "zertifizierbar": false
+    },
+    "0.385": {
+     "delta_max": 1.6502373061633262,
+     "bester_abstand_verrauscht": 0.44096940678553054,
+     "zertifizierbar": false
+    },
+    "0.390": {
+     "delta_max": 1.6643627533695595,
+     "bester_abstand_verrauscht": 0.4434443936202337,
+     "zertifizierbar": false
+    },
+    "0.395": {
+     "delta_max": 1.6783740248320915,
+     "bester_abstand_verrauscht": 0.4458936051461344,
+     "zertifizierbar": false
+    },
+    "0.400": {
+     "delta_max": 1.692271865683611,
+     "bester_abstand_verrauscht": 0.448317235933938,
+     "zertifizierbar": false
+    }
+   },
+   "c_bestaetigt": true
+  }
+ }
+}

@@ -1,0 +1,6 @@
+Vergleich mit Lauf 1 (ohne Umgebung und Pre-Reg-Kopf):
+  A1_bestaetigt       : identisch
+  A2                  : identisch
+  A1_max_abweichung   : groesste Differenz zu Lauf 1 0.0e+00 (beide < 1e-12: True)
+  A1_lemma_w_matrix   : groesste Differenz zu Lauf 1 0.0e+00 (beide < 1e-12: True)
+ERGEBNIS: A2 und A1-Urteil identisch mit Lauf 1

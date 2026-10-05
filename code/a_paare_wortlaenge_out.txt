@@ -1,0 +1,14 @@
+k=2: laengstes noetiges Wort = 4; offen geblieben: []
+   Paar (0, 0): erstes Wort 'STTS' (Laenge 4), Abstand 0.2018
+   Paar (2, 0): erstes Wort 'STTS' (Laenge 4), Abstand 0.2018
+   Paar (0, 2): erstes Wort 'STTS' (Laenge 4), Abstand 0.2018
+   Paar (2, 2): erstes Wort 'STTS' (Laenge 4), Abstand 0.2018
+   Paar (0, 1): erstes Wort 'S' (Laenge 1), Abstand 0.5
+   Paar (1, 2): erstes Wort 'S' (Laenge 1), Abstand 0.5
+k=4: laengstes noetiges Wort = 1; offen geblieben: []
+   Paar (4, 0): erstes Wort 'S' (Laenge 1), Abstand 0.2516
+   Paar (3, 4): erstes Wort 'S' (Laenge 1), Abstand 0.1258
+   Paar (4, 3): erstes Wort 'S' (Laenge 1), Abstand 0.1258
+   Paar (0, 2): erstes Wort 'S' (Laenge 1), Abstand 0.2892
+   Paar (2, 2): erstes Wort 'S' (Laenge 1), Abstand 0.1699
+   Paar (1, 0): erstes Wort 'S' (Laenge 1), Abstand 0.1258

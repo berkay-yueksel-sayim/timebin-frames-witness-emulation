@@ -1,0 +1,109 @@
+INDEPENDENT SECOND ROUTE, hypothesis A2 -- basis: definitions of the pre-registration
+ASSUMPTIONS where the definition is open (each run as a variant where it changes the number):
+  A-1  N_ph = 10^4 applies PER FRAME (variant: 10^4 in total, 10^4/7 per frame)
+  A-2  Miller-Madow K = number of bins with count > 0 (variant: K = L)
+  A-3  (a) 'one blind label': every blind label reported separately; for k=4 additionally 'any of them'
+  A-4  (a) per repetition all seven frames are measured anew, phase noise redrawn per repetition and frame
+  A-5  (c) 'best frame' = frame with the largest NOISY distance (variant: best frame without noise)
+  A-6  (b),(c) 'up to sigma*/f*' = largest grid value at which the condition holds; whether it holds for all smaller ones is printed
+
+====================================================================================================
+k = 2  (N = 4, L = 8, labels 0..2)
+PK+  Lemma W: |S - iU'FU| = 8.8e-16, |T - e^{-i pi/L} U'PU| = 1.1e-15 ; A1 core max|H_bin - H_label - 1| = 1.3e-15
+Blind labels: [1] (definition: k=2 {1}, k=4 {1,3})
+   label 0: h per frame ['-0.0000', '1.5000', '-0.0000', '-0.0000', '1.5000', '1.5000', '-0.0000'] | delta_a = 0.500000 (best frame S)
+   label 1: h per frame ['-0.0000', '1.0000', '-0.0000', '-0.0000', '1.0000', '1.0000', '-0.0000'] | delta_a = 0.000000 (best frame TT)
+   label 2: h per frame ['-0.0000', '1.5000', '-0.0000', '0.0000', '1.5000', '1.5000', '-0.0000'] | delta_a = 0.500000 (best frame S)
+
+(b) structural control: max|h~ - h| outside ST at sigma = 0.3 (50 draws): 6.4e-16
+    deviation in the ST frame monotone in |Delta| on [0; 3.2] rad: {1: False}
+    Delta_max(sigma): semi-analytic | leading order | literal MC (4000 draws)
+     sigma=0.01  0.006354 | 0.005613 | -
+     sigma=0.02  0.021294 | 0.018341 | 0.020418
+     sigma=0.03  0.042466 | 0.035859 | -
+     sigma=0.05  0.098762 | 0.080682 | 0.099531
+     sigma=0.10  0.288527 | 0.219998 | 0.276705
+     sigma=0.15  0.503556 | 0.359788 | -
+     sigma=0.20  0.705237 | 0.469078 | 0.681044
+     sigma=0.25  0.866346 | 0.526238 | -
+     sigma=0.30  0.967411 | 0.514592 | 0.973898
+     sigma=0.40  0.999627 | 0.232650 | -
+    best non-blind distance max delta_a = 0.500000 (label [0, 2])
+    sigma* = 0.14 rad  | condition for all smaller grid values: True | prediction A2(b): sigma* in [0.02 ; 0.30]  -> WITHIN RANGE
+
+(c) Delta_max(f) exact | leading order (zero bins + linear):
+     f=0.005  0.041564 | 0.041575
+     f=0.010  0.075608 | 0.075649
+     f=0.020  0.136135 | 0.136298
+     f=0.050  0.290146 | 0.291173
+     f=0.100  0.503184 | 0.507347
+     f=0.150  0.685719 | 0.695212
+     f=0.200  0.847585 | 0.864693
+     f=0.300  1.125809 | 1.165424
+     f=0.400  1.356780 | 1.429387
+    f* (A-5: noisy best frame) = 0.07 | throughout: True
+    f* (variant: best frame without noise) = 0.07 | throughout: True
+    prediction A2(c): f* in [0.01 ; 0.30] -> WITHIN RANGE
+
+(a) naive rule -- share of the 1000 repetitions with a false certification (prediction: >= 50 %)
+   A-1/A-2 as assumed                           per label {1: '0.714'} | any blind label 0.714 | per frame {'1:id': 152, '1:S': 32, '1:T': 141, '1:SS': 139, '1:ST': 462, '1:TS': 24, '1:TT': 115}
+   without phase noise (sigma=0)                per label {1: '0.462'} | any blind label 0.462 | per frame {'1:id': 140, '1:S': 27, '1:T': 119, '1:SS': 139, '1:ST': 24, '1:TS': 26, '1:TT': 115}
+   variant K = L                                per label {1: '0.998'} | any blind label 0.998 | per frame {'1:id': 684, '1:S': 171, '1:T': 705, '1:SS': 689, '1:ST': 495, '1:TS': 198, '1:TT': 657}
+   variant N_ph in total (10^4/7 per frame)     per label {1: '0.517'} | any blind label 0.517 | per frame {'1:id': 141, '1:S': 25, '1:T': 134, '1:SS': 147, '1:ST': 95, '1:TS': 23, '1:TT': 127}
+   asymptotic, label 1 (degenerate frames only, no phase noise): per frame {'id': 'K=2:0.129', 'S': 'K=4:0.025', 'T': 'K=2:0.129', 'SS': 'K=2:0.129', 'ST': 'K=4:0.025', 'TS': 'K=4:0.025', 'TT': 'K=2:0.129'} -> at least one 0.466
+
+====================================================================================================
+k = 4  (N = 6, L = 12, labels 0..4)
+PK+  Lemma W: |S - iU'FU| = 2.3e-15, |T - e^{-i pi/L} U'PU| = 1.3e-15 ; A1 core max|H_bin - H_label - 1| = 1.3e-15
+Blind labels: [1, 3] (definition: k=2 {1}, k=4 {1,3})
+   label 0: h per frame ['-0.0000', '2.1258', '-0.0000', '0.0000', '2.1258', '2.1258', '-0.0000'] | delta_a = 0.125815 (best frame S)
+   label 1: h per frame ['-0.0000', '2.0000', '-0.0000', '0.0000', '2.0000', '2.0000', '-0.0000'] | delta_a = 0.000000 (best frame SS)
+   label 2: h per frame ['-0.0000', '1.5850', '-0.0000', '0.0000', '1.5850', '1.5850', '0.0000'] | delta_a = 0.415037 (best frame S)
+   label 3: h per frame ['-0.0000', '2.0000', '-0.0000', '0.0000', '2.0000', '2.0000', '-0.0000'] | delta_a = 0.000000 (best frame SS)
+   label 4: h per frame ['-0.0000', '2.1258', '-0.0000', '0.0000', '2.1258', '2.1258', '-0.0000'] | delta_a = 0.125815 (best frame S)
+
+(b) structural control: max|h~ - h| outside ST at sigma = 0.3 (50 draws): 6.4e-16
+    deviation in the ST frame monotone in |Delta| on [0; 3.2] rad: {1: False, 3: False}
+    Delta_max(sigma): semi-analytic | leading order | literal MC (4000 draws)
+     sigma=0.01  0.003600 | 0.003106 | -
+     sigma=0.02  0.011654 | 0.009683 | 0.012105
+     sigma=0.03  0.022599 | 0.018181 | -
+     sigma=0.05  0.050047 | 0.037884 | 0.050777
+     sigma=0.10  0.130512 | 0.083051 | 0.129950
+     sigma=0.15  0.201561 | 0.096727 | -
+     sigma=0.20  0.243829 | 0.058262 | 0.242758
+     sigma=0.25  0.251404 | 0.000000 | -
+     sigma=0.30  0.251608 | 0.000000 | 0.251584
+     sigma=0.40  0.251626 | 0.000000 | -
+    best non-blind distance max delta_a = 0.415037 (label [2])
+    sigma* = 0.4 rad  | condition for all smaller grid values: True | prediction A2(b): sigma* in [0.02 ; 0.30]  -> OUTSIDE
+    CENSORED: the condition never breaks anywhere on the grid -- max Delta_max(sigma) = 0.251626 at sigma = 0.40 lies below delta = 0.415037
+
+(c) Delta_max(f) exact | leading order (zero bins + linear):
+     f=0.005  0.048619 | 0.048631
+     f=0.010  0.088879 | 0.088929
+     f=0.020  0.160990 | 0.161192
+     f=0.050  0.346629 | 0.347899
+     f=0.100  0.607311 | 0.612465
+     f=0.150  0.833805 | 0.845578
+     f=0.200  1.037010 | 1.058264
+     f=0.300  1.391760 | 1.441156
+     f=0.400  1.692272 | 1.783195
+    f* (A-5: noisy best frame) = 0.035 | throughout: True
+    f* (variant: best frame without noise) = 0.035 | throughout: True
+    prediction A2(c): f* in [0.01 ; 0.30] -> WITHIN RANGE
+
+(a) naive rule -- share of the 1000 repetitions with a false certification (prediction: >= 50 %)
+   A-1/A-2 as assumed                           per label {1: '0.618', 3: '0.623'} | any blind label 0.856 | per frame {'1:id': 137, '1:S': 9, '1:T': 136, '1:SS': 145, '1:ST': 300, '1:TS': 1, '1:TT': 132, '3:id': 138, '3:S': 6, '3:T': 123, '3:SS': 145, '3:ST': 305, '3:TS': 9, '3:TT': 146}
+   without phase noise (sigma=0)                per label {1: '0.454', 3: '0.438'} | any blind label 0.685 | per frame {'1:id': 128, '1:S': 6, '1:T': 153, '1:SS': 133, '1:ST': 3, '1:TS': 5, '1:TT': 137, '3:id': 127, '3:S': 7, '3:T': 143, '3:SS': 135, '3:ST': 2, '3:TS': 8, '3:TT': 123}
+   variant K = L                                per label {1: '1.000', 3: '1.000'} | any blind label 1.000 | per frame {'1:id': 864, '1:S': 39, '1:T': 875, '1:SS': 867, '1:ST': 325, '1:TS': 46, '1:TT': 871, '3:id': 856, '3:S': 49, '3:T': 849, '3:SS': 860, '3:ST': 358, '3:TS': 60, '3:TT': 867}
+   variant N_ph in total (10^4/7 per frame)     per label {1: '0.464', 3: '0.472'} | any blind label 0.709 | per frame {'1:id': 132, '1:S': 4, '1:T': 151, '1:SS': 126, '1:ST': 20, '1:TS': 4, '1:TT': 136, '3:id': 162, '3:S': 2, '3:T': 142, '3:SS': 151, '3:ST': 14, '3:TS': 2, '3:TT': 141}
+   asymptotic, label 1 (degenerate frames only, no phase noise): per frame {'id': 'K=2:0.129', 'S': 'K=8:0.005', 'T': 'K=2:0.129', 'SS': 'K=2:0.129', 'ST': 'K=8:0.005', 'TS': 'K=8:0.005', 'TT': 'K=2:0.129'} -> at least one 0.433
+   asymptotic, label 3 (degenerate frames only, no phase noise): per frame {'id': 'K=2:0.129', 'S': 'K=8:0.005', 'T': 'K=2:0.129', 'SS': 'K=2:0.129', 'ST': 'K=8:0.005', 'TS': 'K=8:0.005', 'TT': 'K=2:0.129'} -> at least one 0.433
+
+written: a2_second_route_result.json | md5 of the result entries d3ab8c6e | 42 s
+SCOPE: definitions of the pre-registration as stated for k = 2 and k = 4; if a definition changes, the numbers must be recomputed.
+
+real	0m46.415s
+user	0m0.015s
+sys	0m0.030s

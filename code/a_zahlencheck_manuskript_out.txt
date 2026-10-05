@@ -1,0 +1,22 @@
+OK  A1 Entropie max        Quelle 3.0        gedruckt 3.0\times10^{-14}  im .tex: True
+OK  A1 Matrix max          Quelle 7.4\times10^{-15} gedruckt 7.4\times10^{-15}  im .tex: True
+OK  (a) k=2 L1             Quelle 73.4       gedruckt 73.4               im .tex: True
+OK  (a) k=4 L1             Quelle 57.9       gedruckt 57.9               im .tex: True
+OK  (a) k=4 L3             Quelle 60.4       gedruckt 60.4               im .tex: True
+OK  Kontrolle k=2          Quelle 50.2       gedruckt 50.2               im .tex: True
+OK  Kontrolle k=4 L1       Quelle 45.4       gedruckt 45.4               im .tex: True
+OK  Kontrolle k=4 L3       Quelle 45.9       gedruckt 45.9               im .tex: True
+OK  delta_best k=2         Quelle 0.5        gedruckt 0.5                im .tex: True
+OK  delta_best k=4         Quelle 0.415      gedruckt 0.415              im .tex: True
+OK  sigma* k=2             Quelle 0.14       gedruckt 0.14               im .tex: True
+OK  k=4 zensiert           Quelle True       gedruckt True               im .tex: True
+OK  Dmax k=4 Saettigung    Quelle 0.252      gedruckt 0.252              im .tex: True
+OK  f* k=2                 Quelle 0.07       gedruckt 0.07               im .tex: True
+OK  f* k=4                 Quelle 0.035      gedruckt 0.035              im .tex: True
+OK  Quelle a_nk_out.txt: '7.07e-01' vorhanden: True
+OK  Quelle a_nk_out.txt: '5.77e-01' vorhanden: True
+OK  Quelle a_nk_out.txt: '3.55e-15' vorhanden: True
+OK  Quelle a_nachtrag_out.txt: '3.19 %' vorhanden: True
+OK  Quelle a_nachtrag_out.txt: '0.4749' vorhanden: True
+gedruckt im .tex: 0.71/0.58/3.6e-15: True | 3.2 %: True | 47.5: True
+FEHLER gesamt: 0

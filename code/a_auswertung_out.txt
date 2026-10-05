@@ -1,0 +1,31 @@
+JSON md5 aba6a738ddc6bd4c4196b1f1fab7146d == Lauf 1: True
+A1: max Entropie 2.98e-14, max Matrix 7.37e-15 -> BESTAETIGT (Lauf sagt True)
+
+k=2: blind [1], bester rauschfreier Abstand 0.5000
+  (a) Label 1: sigma=0,05 -> 0.734 | Kontrolle sigma=0 -> 0.502
+  (a) -> bestaetigt (Lauf: True); Kontrollzeile >= 50 %: True -> Zuschreibung an Phasenrauschen NICHT erlaubt
+  (b) sigma* = 0.14 zensiert False -> bestaetigt (Lauf: 0.14, True)
+      Delta_max(0.010) = 0.0064
+      Delta_max(0.210) = 0.7513
+      Delta_max(0.400) = 0.9996
+      am Bruch: Delta_max(0.140) = 0.4615, Delta_max(0.150) = 0.5129
+  (c) f* = 0.07 zensiert False -> bestaetigt (Lauf: 0.07, True)
+      f=0.070: Delta_max 0.3801, bester verrauschter Abstand 0.3906
+      f=0.075: Delta_max 0.4015, bester verrauschter Abstand 0.4015
+
+k=4: blind [1, 3], bester rauschfreier Abstand 0.4150
+  (a) Label 1: sigma=0,05 -> 0.579 | Kontrolle sigma=0 -> 0.454
+  (a) Label 3: sigma=0,05 -> 0.604 | Kontrolle sigma=0 -> 0.459
+  (a) -> bestaetigt (Lauf: True); Kontrollzeile >= 50 %: False -> Zuschreibung an Phasenrauschen erlaubt
+  (b) sigma* = None zensiert True -> widerlegt (Lauf: None, False)
+      Delta_max(0.010) = 0.0036
+      Delta_max(0.210) = 0.2474
+      Delta_max(0.400) = 0.2516
+  (c) f* = 0.035 zensiert False -> bestaetigt (Lauf: 0.035, True)
+      f=0.035: Delta_max 0.2579, bester verrauschter Abstand 0.2879
+      f=0.040: Delta_max 0.2882, bester verrauschter Abstand 0.2882
+
+GESAMT nach Pre-Reg §2 (beide k = bestaetigt, eines = teilweise):
+  A2(a): bestaetigt  [True, True]
+  A2(b): teilweise  [True, False]
+  A2(c): bestaetigt  [True, True]

@@ -1,0 +1,8 @@
+(1) Lauf-1-MC gegen exaktes Quantil, ganzes Gitter
+  k=2: 40 Werte | Mittel -0.06 % | Streuung 1.02 % | max |rel| 2.33 % | ueber 2 %: 3 -> ['0.02 (-2.33 %)', '0.09 (-2.32 %)', '0.17 (+2.15 %)']
+  k=4: 40 Werte | Mittel +0.26 % | Streuung 0.78 % | max |rel| 3.19 % | ueber 2 %: 2 -> ['0.03 (+2.15 %)', '0.07 (+3.19 %)']
+  gesamt: 80 Werte, max |rel| 3.19 %, Mittel +0.10 %
+(3) Kontrollzeile sigma = 0, 40000 Wiederholungen, eigene Saat 31337+
+  k=2 Label 1: 0.4749 +- 0.0025 | Lauf 1 (1000 Wdh.) 0.502 = +1.7 SE(1000)
+  k=4 Label 1: 0.4499 +- 0.0025 | Lauf 1 (1000 Wdh.) 0.454 = +0.3 SE(1000)
+  k=4 Label 3: 0.4432 +- 0.0025 | Lauf 1 (1000 Wdh.) 0.459 = +1.0 SE(1000)
