@@ -3,13 +3,15 @@
 This record accompanies the manuscript "Emulating the frames of a mutual-information witness with time-bin light,
 and how precise the optics must be". It describes only what is in the record.
 
+> **Important — licensing:** text and data under CC BY 4.0; code under the Apache License, Version 2.0. Please read [IMPORTANT.md](IMPORTANT.md).
+
 ## Contents
 
 | Folder / file | What it is |
 |---|---|
 | `manuscript/` | LaTeX source of the manuscript (`talbot_manuscript.tex`, `talbot_refs.bib`) and Fig. 1 (`a_fig1_hero.pdf`, written by `code/a_fig1_hero.py`). |
 | `code/` | Python scripts, the result file of run 1, and the console outputs of the check scripts (table below). |
-| `LICENSE` | Apache License 2.0 (applies to the code). |
+| `LICENSE` | Apache License, Version 2.0 (applies to the code). |
 | `CHECKSUMS.sha256` | SHA-256 of every file in this record except itself (text files with LF line endings, except the two run-1 files, which are kept byte for byte as written by the run and have CRLF; all checksums are over the deposited bytes), checkable with `sha256sum -c`. |
 
 | File in `code/` | What it is |
@@ -61,5 +63,5 @@ comments and printed labels, file names and paths were adjusted, and a compariso
 
 ## Licence and citation
 
-Code: Apache License 2.0 (file `LICENSE`). Text and data: CC BY 4.0.
+Code: Apache License, Version 2.0 (file `LICENSE`; see also `NOTICE` and `IMPORTANT.md`). Text and data: CC BY 4.0.
 Cite as: Sayim, B. Y. (2026), version 1.0, DOI 10.5281/zenodo.23148214.
